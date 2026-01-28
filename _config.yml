@@ -58,6 +58,10 @@ features                                  :
     description                           : Keep tabs on what’s packed away so the right box is easy to grab later.
     fontawesome_icon_name                 : box-open
 
+  - title                                 : Simple pricing
+    description                           : Track up to 5 items for free. Upgrade to Pro for $3.99 CAD/year (or $3.99 USD/year).
+    fontawesome_icon_name                 : tag
+
   - title                                 : # New Feature Title
     description                           : # New Feature Description
     fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
