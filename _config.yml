@@ -59,7 +59,7 @@ features                                  :
     fontawesome_icon_name                 : box-open
 
   - title                                 : Simple pricing
-    description                           : Track up to 5 items for free. Upgrade to Pro for $3.99 CAD/year (or $3.99 USD/year).
+    description                           : Track up to 5 items for free. Upgrade to Pro for $3.99/year (USD worldwide, $3.99/year in Canada).
     fontawesome_icon_name                 : tag
 
   - title                                 : # New Feature Title
