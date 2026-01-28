@@ -41,6 +41,10 @@ features                                  :
   - title                                 : Add items fast
     description                           : Snap a photo, pick a size, and save it—your hand-me-down inventory builds up in minutes.
     fontawesome_icon_name                 : camera
+
+  - title                                 : Not just hand-me-downs
+    description                           : Track new clothes too—holiday gifts, deal finds, or anything that isn’t the right fit yet.
+    fontawesome_icon_name                 : tag
     
   - title                                 : Reserve for a child
     description                           : Claim items for a specific kid so you know exactly who it’s for.
@@ -58,9 +62,15 @@ features                                  :
     description                           : Keep tabs on what’s packed away so the right box is easy to grab later.
     fontawesome_icon_name                 : box-open
 
+  - title                                 : Works beyond kids
+    description                           : With creative workarounds, use it for adult clothes or vacation outfits so you always know what’s packed and where it is.
+    fontawesome_icon_name                 : suitcase
+
   - title                                 : Simple pricing
     description                           : Track up to 5 items for free. Upgrade to Pro for $3.99/year (USD worldwide, $3.99/year in Canada).
     fontawesome_icon_name                 : tag
+
+
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
