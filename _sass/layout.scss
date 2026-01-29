@@ -443,19 +443,18 @@ nav > ul li a:active {
 
   .iphonePreview {
     display: flex;
-    background-image: none;   /* disable device frame */
-    background: none;
-    margin-top: 47px;
     justify-content: center;
-    padding-bottom: 75px;
   }
 
   .iphoneScreen {
-    max-width: 400px;  /* tweak */
+    display: block;
+    margin: 0 auto;      /* center */
+    max-width: 400px;
     width: 100%;
     height: auto;
-    border-radius: 0;  /* since the frame image already has rounded corners */
-    overflow: visible; /* don’t clip the frame */
+
+    margin-left: 0;      /* override desktop */
+    margin-top: 0;       /* override desktop */
   }
 
   .videoContainer {
