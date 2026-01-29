@@ -441,13 +441,25 @@ nav > ul li a:active {
 
 @media only screen and (max-width: 992px) {
 
-  .iphonePreview { justify-content: center; }
+  .iphonePreview {
+    display: flex;
+    justify-content: center;
+  }
 
   .iphoneScreen {
+    display: block;
+    width: 100%;
+    max-width: 400px;      /* choose a value you like */
+    height: auto;          /* key: no vertical stretching */
     margin: 0 auto;
+
+    /* override desktop offsets */
     margin-left: 0;
     margin-top: 0;
-    height: auto !important;
+
+    /* since your screenshot already contains the rounded phone frame */
+    border-radius: 0;
+    overflow: visible;
   }
 
   .videoContainer {
