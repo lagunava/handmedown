@@ -394,9 +394,15 @@ nav > ul li a:active {
   margin-left: 26px;
   margin-top: 23px;
 
-  border-radius: 40px;   /* tweak until it matches your new iPhone 16 Pro frame */
-  overflow: hidden;      /* keeps corners clean */
+  height: auto !important;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+
+  border-radius: 40px;
+  overflow: hidden;
 }
+
 
 .videoContainer {
   width: 349px;
