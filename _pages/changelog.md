@@ -6,6 +6,17 @@ include_in_header: true
 
 <br>
 
+### `Bug Fixes & Improvements`
+# **Version 1.0.1**
+
+## New
+- Added a home screen widget so you can quickly see useful stats like how many items are Ready to be used.
+
+## Improvements
+- Minor under-the-hood updates to keep things running smoothly.
+  
+---
+
 ### `Initial Release`
 # **Version 1.0**
 
