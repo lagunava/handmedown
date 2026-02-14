@@ -9,4 +9,25 @@ include_in_header: true
 ### `Initial Release`
 # **Version 1.0**
 
-Details on features to come! 
+HandMeDown is built to help families organize kids’ clothing and hand-me-downs.
+
+## Locations & storage boxes
+- Create locations and assign storage boxes to a specific location.
+- Move boxes between locations (great for moving).
+
+## Item creation & details
+- Create clothing items using EU or US sizes.
+- Mark items as brand new.
+- Add up to 10 photos per item.
+- Track quantity per item, seasons, gender, and other key attributes.
+
+## Reserve, use, and pack away
+- Reserve an item for a child you already know will use it.
+- Mark items as currently being used.
+- Pack items away into a storage box.
+- Easily move items from one storage box to another.
+
+## Reminders & at-a-glance views
+- Get reminders for reserved items when they should fit.
+- Get reminders for unreserved items that could potentially fit a child.
+- See at a glance what your children can fit into now, what’s reserved for later, and what they’re currently using.
