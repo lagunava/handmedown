@@ -7,6 +7,24 @@ include_in_header: true
 <br>
 
 ### `Bug Fixes & Improvements`
+# **Version 1.1.1**
+
+## Improvements
+- Optimized for iPad to take full advantage of the screen real estate!
+- New split screen layout allows you to see the list of items and also its details at the same time.
+
+### `Bug Fixes & Improvements`
+# **Version 1.1**
+
+## New
+- Adult clothing support is here!  Track adult items alongside children items.
+
+## Improvements
+- Redesigned UI of the family members screen.
+  
+---
+
+### `Bug Fixes & Improvements`
 # **Version 1.0.1**
 
 ## New
