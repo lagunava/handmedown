@@ -6,14 +6,16 @@ include_in_header: true
 
 <br>
 
-### `Bug Fixes & Improvements`
+### `Improvements`
 # **Version 1.1.1**
 
 ## Improvements
 - Optimized for iPad to take full advantage of the screen real estate!
 - New split screen layout allows you to see the list of items and also its details at the same time.
 
-### `Bug Fixes & Improvements`
+---
+
+### `New & Improvements`
 # **Version 1.1**
 
 ## New
@@ -30,7 +32,7 @@ include_in_header: true
 ## New
 - Added a home screen widget so you can quickly see useful stats like how many items are Ready to be used.
 
-## Improvements
+## Bug Fixes
 - Minor under-the-hood updates to keep things running smoothly.
   
 ---
