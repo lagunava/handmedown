@@ -1,3 +1,76 @@
+.appStoreImagesSection {
+  grid-area: s;
+  grid-column: 3 / 11;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.appStoreImagesTitle {
+  font-size: 2.4rem;
+  margin-bottom: 24px;
+}
+
+.appStoreImagesGrid {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 4px 16px;
+}
+
+.appStoreImagesGrid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.appStoreImagesGrid::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 999px;
+}
+
+.appStoreImageItem {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  background: #fff;
+  border-radius: 24px;
+  padding: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.appStoreImage {
+  width: 100%;
+  display: block;
+  border-radius: 18px;
+}
+@media only screen and (max-width: 992px) {
+  .appStoreImagesSection {
+    grid-column: 1 / -1;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .appStoreImagesTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .appStoreImagesGrid {
+    gap: 16px;
+    padding: 8px 0 16px;
+    scroll-padding-left: 15px;
+  }
+
+  .appStoreImageItem {
+    flex: 0 0 78%;
+    max-width: 320px;
+  }
+}
+
+
 .imageWrapper {					// Sets the background image in the header area
 	height: 714px;
 	background: 
@@ -45,6 +118,7 @@
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
+		"s s s s s s s s s s s s"
 		"f f f f f f f f f f f f";
 }
 
@@ -71,6 +145,7 @@
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
+			"s s s s s s s s s s s s"
 			"f f f f f f f f f f f f";
 	}
 }
